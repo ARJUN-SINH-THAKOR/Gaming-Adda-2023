@@ -1,5 +1,11 @@
+:root {
+    --first-color: #FFB320;
+    --secondory-color: #131313;
+    --font-family: 'helvetica', 'sans-serif';
+}
+
 body {
-    font-family: 'helvetica', 'sans-serif';
+    font-family: var(--font-family);
     margin: 0;
 }
 
@@ -80,7 +86,7 @@ p, label, strong {
 }
 
 .badge.premium-tournament {
-    background-color: #FFB320;
+    background-color: var(--first-color);
     color: #252525;
 }
 
@@ -97,15 +103,15 @@ p, label, strong {
 
 /* start: header styles */
 header {
-    background-color: #131313;
+    background-color: var(--secondory-color);
     padding: 20px 0;
     position: relative;
-    border-bottom: 1px solid #FFB320;
+    border-bottom: 1px solid var(--first-color);
 }
 
 .hamburger-menu {
     background-color: transparent;
-    border: 1px solid #FFB320;
+    border: 1px solid var(--first-color);
     padding: 3px 5px;
     width: 30px;
     cursor: pointer;
@@ -115,7 +121,7 @@ header {
 .hamburger-menu .strip {
     display: block;
     height: 1px;
-    background-color: #FFB320;
+    background-color: var(--first-color);
     margin: 4px 0;
 }
 
@@ -137,12 +143,12 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #FFB320;
+    color: var(--first-color);
 }
 
 #login-register-button {
-    background-color: #FFB320;
-    color: #131313;
+    background-color: var(--first-color);
+    color: var(--secondory-color);
     border-radius: 20px;
     padding: 10px 15px;
     font-size: 0.85em;
@@ -174,7 +180,7 @@ nav ul li a:hover {
 }
 
 .hero-marketing-text span {
-    color: #FFB320;
+    color: var(--first-color);
 }
 
 .hero-marketing-text h5 {
@@ -187,7 +193,7 @@ nav ul li a:hover {
 }
 
 .hero-marketing-text button {
-    background-color: #FFB320;
+    background-color: var(--first-color);
     color: #131313;
     border-radius: 25px;
     padding: 15px 25px;
@@ -211,7 +217,7 @@ nav ul li a:hover {
 
 #latest-news .flex h5 {
     flex-basis: 25%;
-    background-color: #FFB320;
+    background-color: var(--first-color);
     padding: 25px;
     margin: 0;
     text-align: right;
@@ -220,7 +226,7 @@ nav ul li a:hover {
 }
 
 #latest-news-container {
-    background-color: #131313;
+    background-color: var(--secondory-color);
     position: relative;
     flex-basis: 75%;
     padding: 25px;
@@ -378,7 +384,7 @@ nav ul li a:hover {
 }
 
 #tournaments .box .tournaments-content h3 {
-    color: #FFB320;
+    color: var(--first-color);
     margin-top: 0;
 }
 
@@ -388,7 +394,7 @@ nav ul li a:hover {
 }
 
 #tournaments .box .tournaments-content label.prizes {
-    color: #FFB320;
+    color: var(--first-color);
     display: inline-block;
     margin-top: 12px;
 }
@@ -423,7 +429,7 @@ nav ul li a:hover {
     font-size: 1.1em;
     color: #eee;
     font-weight: 600;
-    background-color: #FFB320;
+    background-color: var(--first-color);
     position: absolute;
     top: -30px;
     left: 30px;
@@ -518,7 +524,7 @@ nav ul li a:hover {
 }
 
 .post-item > div h5 {
-    color: #FFB320;
+    color: var(--first-color);
     font-size: 0.8em;
     margin-top: 0;
 }
@@ -576,7 +582,7 @@ nav ul li a:hover {
 }
 
 .comments-item > div h5 {
-    color: #FFB320;
+    color: var(--first-color);
     font-size: 0.8em;
     margin-top: 0;
 }
@@ -739,7 +745,7 @@ footer ul li a {
         position: absolute;
         top: 101%;
         width: 100%;
-        background-color: #131313;
+        background-color: var(--secondory-color);
         left: 0;
         padding: 0;
         margin: 0;
@@ -749,7 +755,7 @@ footer ul li a {
     nav ul li {
         display: block;
         padding: 15px 0 15px 20px;
-        border-bottom: 1px solid #FFB320;
+        border-bottom: 1px solid var(--first-color);
         margin: 0;
     }
 
